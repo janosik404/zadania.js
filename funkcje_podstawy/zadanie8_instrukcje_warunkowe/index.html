@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zadanie 8</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function wpuscNaImpreze(wiek){
+        if (wiek >= 18){
+          document.write("Zapraszamy! Masz " + wiek + " lat.<br>");
+        }
+        else{
+          document.write("Przepraszamy, masz tylko " + wiek + " lat, nie możesz wejść na impreze.<br>");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Zadanie 8: Warunki</h1>
+    <p>Sprawdzanie wieku w funkcji.</p>
+    <div id="wynik">
+      <script>
+        wpuscNaImpreze(12);
+        wpuscNaImpreze(16);
+        wpuscNaImpreze(19);
+        wpuscNaImpreze(36);
+      </script>
+    </div>
+    <footer>
+      <p>Emilia Janosik 1p</p>
+    </footer>
+  </body>
+</html>

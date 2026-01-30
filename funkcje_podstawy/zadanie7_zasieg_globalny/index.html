@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zadanie 7</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer>
+      let liczbaProdoktow = 0;
+
+      function wyprodukuj(){
+        liczbaProdoktow++;
+        document.write("Wyprodukowano! Stan magazynu: " + liczbaProdoktow + "<br>")
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Zadanie 7: Zasięg Globalny</h1>
+    <p>Symulacja fabryki.</p>
+    <div id="wynik">
+      <script>
+        wyprodukuj();
+        wyprodukuj();
+        wyprodukuj();
+      </script>
+    </div>
+    <footer>
+      <p>Emilia Janosik 1p</p>
+    </footer>
+  </body>
+</html>
