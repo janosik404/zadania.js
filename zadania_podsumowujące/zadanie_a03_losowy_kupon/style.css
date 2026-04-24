@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.naglowek {
+  padding: 1.25rem 1.5rem;
+  background: #1e293b;
+  border-bottom: 1px solid #334155;
+}
+.naglowek h1 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.tresc {
+  flex: 1;
+  padding: 1.5rem;
+}
+.panel-wynik {
+  max-width: 40rem;
+  padding: 1.25rem;
+  background: #1e293b;
+  border-radius: 0.75rem;
+  border: 1px solid #334155;
+  min-height: 5rem;
+}
+.stopka {
+  padding: 1rem 1.5rem;
+  background: #020617;
+  color: #64748b;
+  font-size: 0.875rem;
+}
+.stopka p {
+  margin: 0;
+}
